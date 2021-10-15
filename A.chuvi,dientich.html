@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>nhập vào cạnh a</p>
+<input type="number" id="vinh">
+<p id="result"></p>
+<button onclick="blabla()">click</button>
+<script>
+    function blabla() {
+        let a = document.getElementById("vinh").value;
+        let dientich = (a * a)
+        let chuvi = (a * 4)
+        document.getElementById("result").innerHTML = "diện tích là: " + dientich + "chu vi là :" + chuvi
+    }
+
+</script>
+</body>
+</html>

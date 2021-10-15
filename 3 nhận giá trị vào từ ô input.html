@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="number" id="anh">
+<input type="number" id="ban">
+<h1 id="result">tỏng:</h1>
+<button onclick="sothe()">click!!</button>
+<script>
+    function sothe() {
+        let k = document.getElementById("anh").value;
+        let l = document.getElementById("ban").value;
+            let s = k * l
+                    document.getElementById("result").innerHTML = "tổng là :" + s
+
+    }
+</script>
+</body>
+</html>
